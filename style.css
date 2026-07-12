@@ -61,3 +61,37 @@ nav{
 .hero-reg-btn{
     margin-top: 170px;
 }
+
+.meet-the-speakers{
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+.speaker-card{
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.speaker-category{
+    color: #4338ca;
+    font-size: 14px;
+    font-weight: 500;
+}
+.speaker-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.speaker-role{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
