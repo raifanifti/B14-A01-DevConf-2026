@@ -20,3 +20,44 @@ ul{
 img{
     max-width: 100%;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-top{
+    background-color: #4338ca;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 30px 60px 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    min-height: 400px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.paragraph{
+    margin-bottom: 20px;
+}
+.hero-reg-btn{
+    margin-top: 170px;
+}
