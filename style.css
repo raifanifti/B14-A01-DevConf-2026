@@ -42,6 +42,9 @@ nav{
     cursor: pointer;
 }
 
+/* Hero Section */
+
+
 .hero-section{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./images/banner.jpg);
     background-size: cover;
@@ -62,11 +65,17 @@ nav{
     margin-top: 170px;
 }
 
+
+/* Meet The Speakers Section */
+
+
 .meet-the-speakers{
     padding: 70px 50px;
     text-align: center;
 }
-
+.speakers-tittle{
+    font-size: 40px;
+}
 .speakers-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -96,6 +105,9 @@ h2{
     margin-bottom: 12px;
 }
 
+
+/* Pricing Section */
+
 .pricing-section{
     padding: 70px 50px;
     text-align: center;
@@ -121,10 +133,16 @@ h2{
     color: white;
 }
 .pricing-card ul, .pro-card ul{
-    list-style: disc;
+    list-style: none;
     text-align: left;
     padding-left: 20px;
 }
+
+.pricing-card span,
+.pro-card span{
+    color: #4338ca;
+}
+
 .pricing-card button{
     background-color: white;
     color: #4338ca;
@@ -141,14 +159,56 @@ h2{
     cursor: pointer;
 }
 .plan-name{
-    font-size: 14px;
-    color: #888;
+    font-size: 16px;
+    color: #4b5563;
 }
 .plan-price{
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.pricing-tittle{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.pricing-sub{
+    margin-bottom: 35px;
+    color: #4b5563;
+}
+.pro-card .plan-name{
+    color: #4338ca;
+}
+.pro-card .plan-price{
+    color: white;
+}
+.plan-sub{
+    font-size: 16px;
+    color: #4b5563;
+}
+.plan-body{
+    border-top: 1px solid #e5e5e5;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
+.pricing-card,
+.pro-card{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-card button,
+.pro-card button{
+    margin-top: auto;
+}
+
+
+
 /* Hackathon-Section */
+
+
 
 .hackathon-section{
     text-align: center;
@@ -186,6 +246,9 @@ h2{
 }
 .hackathon-section > p{
     margin-top: 20px;
+}
+.hack-tittle{
+    font-size: 40px;
 }
 
 /* Footer Section */
