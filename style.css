@@ -187,3 +187,30 @@ h2{
 .hackathon-section > p{
     margin-top: 20px;
 }
+
+/* Footer Section */
+
+footer{
+    background-color: #111827;
+    color: white;
+    padding: 30px 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links ul{
+    display: flex;
+    gap: 25px;
+
+}
+footer hr{
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background-color: #4b5563;
+}
+footer p{
+    text-align: center;
+}
